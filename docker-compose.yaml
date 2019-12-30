@@ -1,0 +1,9 @@
+version: '3.3'
+
+services:
+    bakeryapp:
+        build: ./
+        image: bakeryapp:latest
+        restart: always
+        ports: 
+            - "8080:80"
